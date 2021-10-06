@@ -23,3 +23,29 @@ body{
     width: 600px;
     height: 600px;
 }
+
+.azul{
+    grid-area: azul; /*aqui coloca o nome da area */
+    background-color: blue;
+    border-bottom-right-radius: 100% ;
+}
+
+.vermelho{
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+.amarelo{
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+.verde{
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+.selected{
+    opacity: 0.8;
+}
